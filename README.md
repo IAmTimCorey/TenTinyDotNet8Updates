@@ -20,3 +20,34 @@ Items not covered:
  * QuickGrid
  * Aspire
  * And much more...
+
+### Specific Update Loading Instructions
+1. Primary Constructors
+git checkout 7ef1598
+
+2. Collection Expressions
+git checkout 072ef75
+
+3. Alias Any Type
+git checkout a86c7ca
+
+4. Experimental Attribute
+git checkout 95a43f1
+
+5. OpenFolderDialog in WPF
+git checkout 8d1b82f
+
+6. Modern Windows Icons
+git checkout 4d5a5f1
+
+7. Random Updates
+git checkout ecbbb5b
+
+8. New Validations
+git checkout 6e67835
+
+9. IPNetwork Parse and TryParse
+git checkout 0884d1d
+
+10. Keyed DI Services
+git checkout 37fbaa3
