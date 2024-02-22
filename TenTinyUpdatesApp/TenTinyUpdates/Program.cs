@@ -1,5 +1,6 @@
 ﻿
 // #3 - Alias any type
+using System.Net;
 using TenTinyUpdates; // Normal
 using static System.Console; // More recent, but not new
 using Person = (string firstName, string lastName); // New
@@ -32,5 +33,15 @@ WriteLine("Subset: " + string.Join(", ", subset));
 Random.Shared.Shuffle(combo);
 WriteLine("Shuffled list: " + string.Join(", ", combo));
 
+// #9 - IPNetwork Parse
+IPNetwork network = IPNetwork.Parse("192.168.1.1/32");
+WriteLine(network.BaseAddress);
+
+bool isInRange = IPNetwork.TryParse("192.168.1.321/32", out network);
+WriteLine(isInRange);
+if (isInRange)
+{
+    WriteLine(network.BaseAddress);
+}
 
 ReadLine();
