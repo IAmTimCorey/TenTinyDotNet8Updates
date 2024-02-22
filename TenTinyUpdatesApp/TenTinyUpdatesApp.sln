@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenTinyUpdates", "TenTinyUpdates\TenTinyUpdates.csproj", "{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A5D111-0EE8-4471-B119-FC2E17A6FD98}
+	EndGlobalSection
+EndGlobal
