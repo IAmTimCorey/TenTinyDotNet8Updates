@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenTinyUpdates", "TenTinyUpdates\TenTinyUpdates.csproj", "{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemo", "WpfDemo\WpfDemo.csproj", "{9E418CA2-DE5E-4D96-81D2-D02DBD3E5B28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C44C10B-EABB-4ED8-A172-B9D52E7E9921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E418CA2-DE5E-4D96-81D2-D02DBD3E5B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E418CA2-DE5E-4D96-81D2-D02DBD3E5B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E418CA2-DE5E-4D96-81D2-D02DBD3E5B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E418CA2-DE5E-4D96-81D2-D02DBD3E5B28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
