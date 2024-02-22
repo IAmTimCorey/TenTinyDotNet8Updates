@@ -16,4 +16,13 @@ List<string> moreNames = ["Greg", "Mary", "Pam"];
 // Including the spread operator (..)
 string[] combo = [.. names, .. moreNames];
 
+// #4 - Experimental Attribute
+#pragma warning disable TENUPD000001 
+ExperimentalDemo demo = new()
+{
+    Id = 1,
+    DemoName = "Primary Constructors"
+};
+#pragma warning restore TENUPD000001 
+
 ReadLine();
