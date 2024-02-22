@@ -25,4 +25,12 @@ ExperimentalDemo demo = new()
 };
 #pragma warning restore TENUPD000001 
 
+// #7 - Random Updates
+string[] subset = Random.Shared.GetItems(combo, 2);
+WriteLine("Subset: " + string.Join(", ", subset));
+
+Random.Shared.Shuffle(combo);
+WriteLine("Shuffled list: " + string.Join(", ", combo));
+
+
 ReadLine();
