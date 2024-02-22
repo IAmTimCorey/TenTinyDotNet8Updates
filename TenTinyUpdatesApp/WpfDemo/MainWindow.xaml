@@ -19,8 +19,12 @@
         </Grid.RowDefinitions>
         <Button Grid.Column="1" Grid.Row="1" Padding="15"
                 FontSize="20" Background="LightBlue"
-                Content="Open Folder" HorizontalAlignment="Center" 
-                VerticalAlignment="Center" Click="OpenFolder_Click" 
-                />
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" Click="OpenFolder_Click">
+            <StackPanel>
+                <Image x:Name="buttonIcon" />
+                <TextBlock Text="Open Folder" />
+            </StackPanel>
+        </Button>
     </Grid> 
 </Window>

@@ -1,5 +1,9 @@
 ﻿using Microsoft.Win32;
+using System.Drawing;
+using System.IO;
 using System.Windows;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace WpfDemo
 {
@@ -11,6 +15,24 @@ namespace WpfDemo
         public MainWindow()
         {
             InitializeComponent();
+
+            Icon icon = SystemIcons.GetStockIcon(StockIconId.DriveRemovable);
+            ImageSource iconBitmapSource;
+
+            using (MemoryStream iconStream = new MemoryStream())
+            {
+                // Save the icon to a memory stream
+                icon.Save(iconStream);
+                iconStream.Position = 0;
+
+                // Create a BitmapDecoder to read the icon stream
+                BitmapDecoder decoder = BitmapDecoder.Create(iconStream, BitmapCreateOptions.PreservePixelFormat, BitmapCacheOption.OnLoad);
+
+                // Return the first frame of the icon as a BitmapSource
+                iconBitmapSource = decoder.Frames[0];
+            }
+
+            buttonIcon.Source = iconBitmapSource;
         }
 
         private void OpenFolder_Click(object sender, RoutedEventArgs e)
