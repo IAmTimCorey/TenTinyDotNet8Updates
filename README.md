@@ -1,5 +1,5 @@
-# OrlandoCC2024Demos
-Demos for the Orlando Code Camp 2024
+# 10 Tiny Updates in .NET 8 You Should Should Know
+Demos from Tim Corey's conference talk on the small updates in .NET 8 that you should know about.
 
 ## 10 Tiny Updates in .NET 8 You Should Should Know
 (includes items from C# 12)
